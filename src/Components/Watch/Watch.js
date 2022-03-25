@@ -15,9 +15,19 @@ const Watch = () => {
     }, [])
 
     const addToCart = (product) => {
-        const newCart = [...cart, product]
-        setCart(newCart);
+        if ((cart.length < 4)) {
+            const newCart = [...cart, product]
+            setCart(newCart);
+        }
     }
+
+    // function Random(props) {
+    //     var maxNumber = 45;
+    //     var randomNumber = Math.floor((Math.random() * maxNumber) + 1);
+    //     return randomNumber;
+    // }
+
+
     return (
         <div className='watch'>
             <div className='watch-container'>
@@ -36,6 +46,9 @@ const Watch = () => {
                         key={item.id}
                     ></Cart>)
                 }
+
+
+
             </div>
         </div>
     );
