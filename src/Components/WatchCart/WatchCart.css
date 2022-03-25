@@ -1,0 +1,15 @@
+ 
+  .watch-details{
+      font-size: 30px;
+      margin-right: 50px;
+      color: red;
+      border: none;
+  }
+
+  .add-to-cart{
+    width: calc(100% - 30px);
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
