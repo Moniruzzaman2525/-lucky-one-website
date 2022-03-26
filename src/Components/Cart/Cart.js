@@ -1,21 +1,14 @@
 import React from 'react';
+import './Cart.css'
 
 const Cart = ({ item }) => {
+    // console.log(items)
 
-    // console.log(item.id);
-    // let min = item.id;
-    // let max = item.id
-
-    // const ranomia = () => {
-    //     // setCart([])
-    //     min = Math.floor(Math.random() * (max - min + 1)) + min;
-    //     // console.log(min)
-    // }
-
-    // console.log(item);
     return (
-        <div>
-            <h1>{item.name}</h1>
+        <div className='cart-container d-flex p-4'>
+            <img src={item.picture} alt="" />
+            <h4 className='cart-text'>{item.name}</h4>
+            {/* <h2>{items.name}</h2> */}
         </div>
     );
 };

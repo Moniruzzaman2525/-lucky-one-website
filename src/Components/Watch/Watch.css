@@ -8,6 +8,51 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
+.main{
+    position: sticky;
+    top: 0;
+}
 .result{
-    background:  orange;
+    /* position: sticky;
+    top: 0; */
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    background:  rgba(255, 153, 0, 0.3);
+}
+
+.result h1{
+    color: #1C2B35;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px
+}
+
+.order-btn{
+    position: absolute;
+    top: 550px;
+    left: 80px;
+    background: #FF3030;
+    border-radius: 4px;
+    padding: 20px 70px;
+    border: none; 
+}
+.order-btn2{
+    position: absolute;
+    top: 650px;
+    left: 80px;
+    background: rgba(255, 153, 0, 1);
+    border-radius: 4px;
+    padding: 20px 70px;
+    border: none; 
+}
+
+.order-text{
+    color:  #FFFFFF;;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
 }

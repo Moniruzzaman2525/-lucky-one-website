@@ -6,7 +6,7 @@ import './WatchCart.css';
 const WatchCart = ({ watch, addToCart }) => {
     const { id, name, price, picture } = watch;
     return (
-        <div className='watch-item'>
+        <div className='watch-item shadow-lg p-3 mb-5 bg-body'>
             <img src={picture} alt="" />
             <h4>Id: {id}</h4>
             <h1>{name}</h1>

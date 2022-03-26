@@ -1,6 +1,6 @@
  
   .watch-details{
-      background: orange;
+      background: #FFE0B3;
       margin-top: 50px;
       width: 100%;
       display: flex;
@@ -14,18 +14,18 @@
 
   .btn-text{
     font-size: 30px;
-    color: rgb(160, 95, 151);
+    color: rgba(14, 22, 26, 1);
     margin-right: 10px;
   }
   .icon{
     font-size: 30px;
-    color: red;
+    color:rgba(14, 22, 26, 1);
     margin-bottom: 10px;
   }
   
   .watch-item{
     margin: 0 30px;
-    border: 1px solid red;
+    border: 1px solid #95A0A7;
     padding: 20px;
     border-radius: 20px;
   }

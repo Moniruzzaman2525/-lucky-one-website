@@ -21,6 +21,17 @@ const Watch = () => {
         }
     }
 
+
+
+
+    const choiceButton = () => {
+        let newcart = [];
+        const ran = Math.floor(Math.random() * cart.length);
+        newcart.push(cart[ran]);
+        // console.log(newcart);
+        setCart(newcart)
+    }
+
     const removeItem = () => {
         setCart([])
     }
@@ -38,15 +49,24 @@ const Watch = () => {
                 }
             </div>
             <div className='result'>
+                <h1>Order Summary</h1>
                 {
                     cart.map(item => <Cart
                         item={item}
                         key={item.id}
+                    // items={items}
                     ></Cart>)
                 }
+                {/* {
+                    items.map(items => <Extra items={items}></Extra>)
+                } */}
 
-                <button onClick={removeItem}>hello</button>
-
+                <button className='order-btn' onClick={removeItem}>
+                    <p className='order-text'>Clear Order</p>
+                </button>
+                <button className='order-btn2' onClick={choiceButton}>
+                    <p>Choice For me</p>
+                </button>
 
             </div>
         </div>
