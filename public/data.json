@@ -3,72 +3,72 @@
         "id": 1,
         "price": "350$",
         "picture": "https://t3.ftcdn.net/jpg/03/14/58/00/240_F_314580074_O0xV2mTsHh9aSslV67cF7ZE6sYb9mpY1.jpg",
-        "name": "Woodard Leach"
+        "name": "Audemars Piguet"
     },
     {
         "id": 2,
         "price": "350$",
         "picture": "https://t3.ftcdn.net/jpg/02/98/70/02/240_F_298700268_PL84o9g4pxs86rR3NQrhyi9Pw65xfNIu.jpg",
-        "name": "Shawna Haley"
+        "name": "Frédérique Constant"
     },
     {
         "id": 3,
         "price": "350$",
         "picture": "https://t3.ftcdn.net/jpg/00/79/95/66/240_F_79956651_mWJE9NNaOjBC1zZf08QZth4heL62FPTs.jpg",
-        "name": "Cabrera Erickson"
+        "name": "Harry Winston"
     },
     {
         "id": 4,
         "price": "350$",
         "picture": "https://t3.ftcdn.net/jpg/03/26/45/64/240_F_326456457_eut3unueN9Rl0qCmWGQVHh9c7qBQUv1z.jpg",
-        "name": "Karla Kaufman"
+        "name": "Blancpain"
     },
     {
         "id": 5,
         "price": "350$",
         "picture": "https://t3.ftcdn.net/jpg/03/57/56/98/240_F_357569813_iivm2eMkh1b6tZLcHsELwHajh7SxdBWC.jpg",
-        "name": "Julie Noel"
+        "name": "Longines"
     },
     {
         "id": 6,
         "price": "350$",
         "picture": "https://t4.ftcdn.net/jpg/00/69/72/75/240_F_69727534_pFRDZk59cAvDOmXQlPwDgEBm2teujQaO.jpg",
-        "name": "Hart Hampton"
+        "name": "Omega"
     },
     {
         "id": 7,
         "price": "350$",
         "picture": "https://t3.ftcdn.net/jpg/04/68/37/22/240_F_468372204_rLss5uLbYPTWMaDj8bt5LgWY0OrYVmfY.jpg",
-        "name": "Myrna Dunn"
+        "name": "Tudor"
     },
     {
         "id": 8,
         "price": "350$",
         "picture": "https://t3.ftcdn.net/jpg/02/34/52/62/240_F_234526229_LAjV1ntFzss8zsmcTeRPJEatHBIbFFkQ.jpg",
-        "name": "Myrna Dunn"
+        "name": "Rolex"
     },
     {
         "id": 9,
         "price": "350$",
         "picture": "https://t4.ftcdn.net/jpg/02/01/62/55/240_F_201625507_cilNmcJh00iNSLONhMu3EYts0NO214mU.jpg",
-        "name": "Myrna Dunn"
+        "name": "Patek Philippe"
     },
     {
         "id": 10,
         "price": "350$",
         "picture": "https://t4.ftcdn.net/jpg/01/80/42/25/240_F_180422586_H9ZSNdTTBxPo4d6Nkih38DCiUeI4XYbf.jpg",
-        "name": "Myrna Dunn"
+        "name": "Vacheron Constantin"
     },
     {
         "id": 11,
         "price": "350$",
         "picture": "https://t3.ftcdn.net/jpg/02/28/40/32/240_F_228403260_TBNrlmyFYKAs1Zd1MBnRp1fcNzqOtd7C.jpg",
-        "name": "Myrna Dunn"
+        "name": "Tag Heuer"
     },
     {
         "id": 12,
         "price": "350$",
         "picture": "https://t4.ftcdn.net/jpg/00/42/01/93/240_F_42019313_QLNWHp7orxChBcrdyxpbDmLj0NsLNLQd.jpg",
-        "name": "Myrna Dunn"
+        "name": "Montblanc"
     }
 ]

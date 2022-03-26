@@ -21,11 +21,9 @@ const Watch = () => {
         }
     }
 
-    // function Random(props) {
-    //     var maxNumber = 45;
-    //     var randomNumber = Math.floor((Math.random() * maxNumber) + 1);
-    //     return randomNumber;
-    // }
+    const removeItem = () => {
+        setCart([])
+    }
 
 
     return (
@@ -47,6 +45,7 @@ const Watch = () => {
                     ></Cart>)
                 }
 
+                <button onClick={removeItem}>hello</button>
 
 
             </div>
