@@ -1,8 +1,8 @@
 import './App.css';
 import Watch from './Components/Watch/Watch';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
+import Question from './Components/Question&ans/Question';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <div className='m-4'>
       <Header></Header>
       <Watch></Watch>
-      <Footer></Footer>
+      <Question></Question>
     </div>
   );
 }

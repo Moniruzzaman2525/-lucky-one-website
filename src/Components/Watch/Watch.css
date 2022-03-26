@@ -58,7 +58,7 @@
     line-height: 20px;
 }
 
-@media (min-width: 800px) and (max-width: 1100px) {
+@media (max-width: 800px){
     .watch{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -72,5 +72,19 @@
     
     .watch-container{
         grid-template-columns: repeat(1 , 1fr);
+    }
+}
+@media (min-width: 800px){
+    .watch{
+        grid-template-columns: 4fr 1fr;
+    }
+    
+    .btn-cart button{
+        margin: 0 10px;
+    }
+    
+    
+    .watch-container{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
