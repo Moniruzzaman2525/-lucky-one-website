@@ -73,11 +73,11 @@ const Watch = () => {
                         ></Cart>)
                     }
                     <div className="btn-cart">
-                        <button className='order-btn' onClick={() => removeItem()}>
-                            Clear Order
-                        </button>
                         <button className='order-btn2' onClick={() => choiceButton()}>
-                            Choice For me
+                            CHOOSE 1 FOR ME
+                        </button>
+                        <button className='order-btn' onClick={() => removeItem()}>
+                            CHOOSE AGAIN
                         </button>
                     </div>
 

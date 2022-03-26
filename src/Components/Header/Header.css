@@ -5,3 +5,9 @@
     margin: 40px 0;
     background-color: rgba(255, 153, 0, 0.3);
 }
+
+@media (max-width: 800px){
+    .header-area{
+        position:static;
+    }
+}
