@@ -15,9 +15,17 @@ const Watch = () => {
     }, [])
 
     const addToCart = (product) => {
-        if ((cart.length < 4)) {
-            const newCart = [...cart, product]
-            setCart(newCart);
+        const addItem = cart.find((item) => item.id === product.id)
+        if (!addItem)
+            if ((cart.length < 4)) {
+                const newCart = [...cart, product]
+                setCart(newCart);
+            }
+            else {
+                alert('you selected more than product')
+            }
+        else {
+            alert('A product cannot be repeatedly selected')
         }
     }
 
@@ -26,7 +34,7 @@ const Watch = () => {
 
     const choiceButton = () => {
         if (cart.length === 0) {
-            alert('emty array')
+            alert('Please add a product')
         }
         else {
             const newcart = [];

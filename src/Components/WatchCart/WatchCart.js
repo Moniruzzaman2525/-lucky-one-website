@@ -8,7 +8,7 @@ const WatchCart = ({ watch, addToCart }) => {
     return (
         <div className='watch-item shadow-lg p-3 mb-5 bg-body'>
             <img src={picture} alt="" />
-            <h4>Id: {id}</h4>
+
             <h1>{name}</h1>
             <h1>$ {price}</h1>
             <div>

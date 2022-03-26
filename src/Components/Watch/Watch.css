@@ -34,7 +34,7 @@
     font-size: 28px;
     background: rgba(255, 153, 0, 1);
     border-radius: 5px;
-    padding: 10px 40px;
+    padding: 10px 42px;
     border: none; 
 }
 .order-btn2{
@@ -80,9 +80,11 @@
     }
     
     .btn-cart button{
-        margin: 0 10px;
+        margin: 10px 0;
     }
-    
+    .btn-cart{
+        padding: 50px 0;
+    }
     
     .watch-container{
         grid-template-columns: repeat(3, 1fr);
