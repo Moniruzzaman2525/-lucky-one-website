@@ -10,17 +10,19 @@
       border-radius: 20px;
       padding: 10px;
       align-items: center;
+      color:rgba(14, 22, 26, 1);
+      font-size: 30px;
   }
 
   .btn-text{
-    font-size: 30px;
+    
     color: rgba(14, 22, 26, 1);
     margin-right: 10px;
   }
   .icon{
+    margin: 0 5px;
     font-size: 30px;
-    color:rgba(14, 22, 26, 1);
-    margin-bottom: 10px;
+    vertical-align: middle;
   }
   
   .watch-item{

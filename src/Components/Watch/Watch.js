@@ -25,11 +25,15 @@ const Watch = () => {
 
 
     const choiceButton = () => {
-        let newcart = [];
-        const ran = Math.floor(Math.random() * cart.length);
-        newcart.push(cart[ran]);
-        // console.log(newcart);
-        setCart(newcart)
+        if (cart.length === 0) {
+            alert('emty array')
+        }
+        else {
+            const newcart = [];
+            const ran = Math.floor(Math.random() * cart.length);
+            newcart.push(cart[ran]);
+            setCart(newcart)
+        }
     }
 
     const removeItem = () => {
@@ -49,24 +53,28 @@ const Watch = () => {
                 }
             </div>
             <div className='result'>
-                <h1>Order Summary</h1>
-                {
-                    cart.map(item => <Cart
-                        item={item}
-                        key={item.id}
-                    // items={items}
-                    ></Cart>)
-                }
-                {/* {
-                    items.map(items => <Extra items={items}></Extra>)
-                } */}
 
-                <button className='order-btn' onClick={removeItem}>
-                    <p className='order-text'>Clear Order</p>
-                </button>
-                <button className='order-btn2' onClick={choiceButton}>
-                    <p>Choice For me</p>
-                </button>
+                <div className="cart-info">
+                    <h1>Order Summary</h1>
+
+                    {
+                        cart.map(item => <Cart
+                            item={item}
+                            key={item.id}
+                        // items={items}
+                        ></Cart>)
+                    }
+                    <div className="btn-cart">
+                        <button className='order-btn' onClick={() => removeItem()}>
+                            Clear Order
+                        </button>
+                        <button className='order-btn2' onClick={() => choiceButton()}>
+                            Choice For me
+                        </button>
+                    </div>
+
+
+                </div>
 
             </div>
         </div>
